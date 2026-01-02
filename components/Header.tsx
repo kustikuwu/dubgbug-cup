@@ -43,7 +43,7 @@ export default function Header() {
 
         <Link
           href="/participants"
-          className="hidden text-white hover:text-blue-400 transition-colors duration-200 font-medium relative group"
+          className="text-white hover:text-blue-400 transition-colors duration-200 font-medium relative group"
         >
           Участники сквада
         </Link>
