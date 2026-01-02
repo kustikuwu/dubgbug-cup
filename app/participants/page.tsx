@@ -1,39 +1,23 @@
-import people from "@/data/people.json";
-import type { Person } from "@/types";
+"use client";
+
+import SquadCarousel from "@/components/participants/SquadCarousel";
+import Snowfall from "@/components/ui/Snowfall";
+import { getSquad } from "@/lib/getSquad";
 
 export default function ParticipantsPage() {
-  const squad = (people as Person[]).filter(
-    (person) => person.isSquadMember
-  );
+  const members = getSquad(); // возвращает массив участников из JSON
 
   return (
-    <main className="p-8">
-      <h1 className="text-3xl font-bold mb-6">
+    <main className="min-h-screen bg-zinc-950 px-4 py-16 relative flex flex-col items-center">
+      {/* Снег */}
+      <Snowfall />
+
+      <h1 className="text-3xl font-bold text-white text-center mb-10">
         Участники сквада
       </h1>
 
-      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-        {squad.map((person) => (
-          <div
-            key={person.id}
-            className="p-4 bg-zinc-900 rounded text-white"
-          >
-            <h2 className="text-xl font-semibold">
-              {person.name}
-              {person.nickname && ` (${person.nickname})`}
-            </h2>
-
-            {person.twitch && (
-              <a
-                href={person.twitch}
-                target="_blank"
-                className="text-purple-400 hover:underline"
-              >
-                Twitch
-              </a>
-            )}
-          </div>
-        ))}
+      <div className="flex justify-center w-full">
+        <SquadCarousel members={members} />
       </div>
     </main>
   );
