@@ -1,0 +1,62 @@
+[
+  {
+    "id": "optimus1412",
+    "nickname": "Optimus1412_",
+    "name": "Оптимус aka Тимур",
+    "avatar": "/squad/optimus1412.jpg",
+    "role": "Основатель сквада",
+    "description": "Добрый малый сквада. Любит играть в разные игры у себя на стриме, а так-же очень общителен как со своей аудиторией, так и с участниками своего сквада, играя с ними в разные игры.",
+    "integrations": {
+      "twitch": "https://www.twitch.tv/optimus1412_",
+      "telegram": "https://t.me/HoziyaninOptimus"
+    }
+  },
+  {
+    "id": "tu4ik00",
+    "nickname": "tu4ik00",
+    "name": "Тучик",
+    "avatar": "/squad/tu4ik00.jpg",
+    "role": "Второй король сквада",
+    "description": "Самый народный стример сквада, не чсв стример, любит играть соло и с подписотой в дотан, а так же ему любят писать в комментарии в тик токе Будь собой.",
+    "integrations": {
+      "twitch": "https://www.twitch.tv/tu4ik00",
+      "telegram": "https://t.me/tu4ik00"
+    }
+  },
+  {
+    "id": "Chogori",
+    "nickname": "Chogori",
+    "name": "Чогори aka Даня",
+    "avatar": "/squad/Chogori.jpg",
+    "role": "Кэроль сквада",
+    "description": "Привет! (ЭЭт подпись) .",
+    "integrations": {
+      "twitch": "https://www.twitch.tv/ch0g0ri",
+      "telegram": "https://t.me/Ch0gori"
+    }
+  },
+  {
+    "id": "aechkaz",
+    "nickname": "aechkaz",
+    "name": "Аечкази aka Аля",
+    "avatar": "/squad/aechkaz.jpg",
+    "role": "Королева сквада",
+    "description": "Приятная тяночка сквада. Любит придумывать разные образы на стримы и играть в игры. Очень общительна с ребятами как на стримах, так и в чатах у других. Её часто можно встретить в дискорде с другими ребятами из чата.",
+    "integrations": {
+      "twitch": "https://www.twitch.tv/aechkaz",
+      "telegram": "https://t.me/aechkabzz"
+    }
+  },
+  {
+    "id": "ka1doo322",
+    "nickname": "ka1doo322",
+    "name": "Кайдо aka Руслан",
+    "avatar": "/squad/ka1doo322.jpg",
+    "role": "Принц сквада",
+    "description": "Крутой братец, игрет в основном доточку и кс, но появляется и в других играх. Доборый, любит играть как и соло, так и с любимыми фоловерами. ",
+    "integrations": {
+      "twitch": "https://www.twitch.tv/ka1doo322",
+      "telegram": "https://t.me/ka1do322"
+    }
+  }
+]
