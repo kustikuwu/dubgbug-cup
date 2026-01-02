@@ -27,7 +27,11 @@ export default function RootLayout({
   return (
     <html lang="ru">
       <body
+<<<<<<< HEAD
         className={`${geistSans.variable} ${geistMono.variable} antialiased text-white bg-zinc-950 new-year-bg`}
+=======
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-zinc-950 text-white`}
+>>>>>>> 122a8781d24b66fa3ca694b4dc0f231c8e52fc28
       >
         {/* Глобальные эффекты страницы (снег и т.д.) */}
         <PageEffects />

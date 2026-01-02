@@ -8,11 +8,7 @@ export default function Home() {
           Dungbug Hub
         </h1>
         <p className="text-xl text-zinc-400 max-w-2xl">
-<<<<<<< HEAD
           Турнирный сайт со статистикой и их результатами!
-=======
-          Турнирный сайт со статистикой и результатами
->>>>>>> 122a8781d24b66fa3ca694b4dc0f231c8e52fc28
         </p>
       </div>
 
