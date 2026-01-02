@@ -17,7 +17,4 @@ export default function TeamsPage() {
     </main>
   );
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 122a8781d24b66fa3ca694b4dc0f231c8e52fc28
