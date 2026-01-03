@@ -26,5 +26,12 @@
     "tag": "PIZ",
     "logo": "/logos/ultra.png",
     "players": ["keglechka", "lomikonhi", "cga_2", "provoda1001", "_klod_mane"]
+  },
+  {
+    "id": "team-star",
+    "name": "Kishki team",
+    "tag": "KIH",
+    "logo": "/logos/star.png",
+    "players": ["butterfly66w", "niki7553", "chanlees", "pisril", "grishanyarealmadrid"]
   }
 ]
