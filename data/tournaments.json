@@ -13,7 +13,8 @@
       { "place": 1, "teamId": "team-alpha", "points": 0 },
       { "place": 2, "teamId": "team-beta", "points": 0 },
       { "place": 3, "teamId": "team-sigma", "points": 0 },
-      { "place": 4, "teamId": "team-ultra", "points": 0 }
+      { "place": 4, "teamId": "team-ultra", "points": 0 },
+      { "place": 5, "teamId": "team-star", "points": 0 }
     ]
   }
 ]
