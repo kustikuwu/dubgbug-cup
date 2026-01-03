@@ -13,8 +13,6 @@ export default async function TournamentPage({ params }: Props) {
   const tournament = (tournaments as Tournament[]).find(t => t.id === slug);
 
   if (!tournament) notFound();
-
-  // Фильтруем команды, участвующие в турнире
   const tournamentTeams = (teamsData as Team[]).filter(team =>
     tournament.teams.includes(team.id)
   );
@@ -26,13 +24,29 @@ export default async function TournamentPage({ params }: Props) {
       <p className="mb-4">{tournament.description}</p>
       <p className="mb-4">Даты: {tournament.startDate} - {tournament.endDate}</p>
       <p className="mb-4">Статус: <span className="font-semibold">{tournament.status}</span></p>
+      <p className="mb-4">
+        Турнирная таблица:{" "}
+        <a 
+          href="https://challonge.com/ru/WinterCupDBDota2" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-400 underline hover:text-blue-300 transition-colors"
+        >
+          Challonge / WinterCupDBDota2
+        </a>
+      </p>
+      
       <p className="mb-6">
-        Discord: <a href={tournament.discord} target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">
+        Discord:{" "}
+        <a 
+          href={tournament.discord} 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-400 underline hover:text-blue-300 transition-colors"
+        >
           Присоединиться
         </a>
       </p>
-
-      {/* Команды турнира */}
       <section className="mb-8">
         <h2 className="text-2xl font-bold mb-2">Команды</h2>
         <div className="grid gap-4">
@@ -41,8 +55,6 @@ export default async function TournamentPage({ params }: Props) {
           ))}
         </div>
       </section>
-
-      {/* Результаты */}
       <section>
         <h2 className="text-2xl font-bold mb-2">Результаты</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
