@@ -8,7 +8,7 @@
     "endDate": "2026-01-11",
     "status": "Регистрация",
     "discord": "https://discord.gg/gDZJWk7HmV",
-    "teams": ["team-alpha", "team-beta", "team-sigma", "team-ultra"],
+    "teams": ["team-alpha", "team-beta", "team-sigma", "team-ultra","team-star"],
     "results": [
       { "place": 1, "teamId": "team-alpha", "points": 0 },
       { "place": 2, "teamId": "team-beta", "points": 0 },
