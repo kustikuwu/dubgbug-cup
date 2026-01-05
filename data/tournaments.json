@@ -6,7 +6,7 @@
     "game": "Dota 2",
     "startDate": "2026-01-05",
     "endDate": "2026-01-11",
-    "status": "Ожидание игр",
+    "status": "В процессе игр",
     "discord": "https://discord.gg/gDZJWk7HmV",
     "teams": ["team-alpha", "team-beta", "team-sigma", "team-ultra","team-star"],
     "results": [
