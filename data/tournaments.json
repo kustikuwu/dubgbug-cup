@@ -1,7 +1,7 @@
 [
   {
     "id": "dubgbug-cup-1",
-    "name": "Winter Dungbug Cup 2026",
+    "name": "Winter Dota Dungbug Cup 2026",
     "description": "Первый официальный турнир Dungbug по Dota 2!",
     "game": "Dota 2",
     "startDate": "2026-01-05",
@@ -19,7 +19,7 @@
   },
   {
     "id": "dubgbug-cup-2",
-    "name": "Winter Dungbug Cup 2026",
+    "name": "Winter CS Dungbug Cup 2026",
     "description": "Первый официальный турнир Dungbug по CS2!",
     "game": "CS2",
     "startDate": "Soon...",
