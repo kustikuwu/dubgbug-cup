@@ -16,5 +16,16 @@
       { "place": 4, "teamId": "team-ultra", "points": 0 },
       { "place": 5, "teamId": "team-star", "points": 0 }
     ]
+  },
+  {
+    "id": "dubgbug-cup-2",
+    "name": "Winter Dungbug Cup 2026",
+    "description": "Первый официальный турнир Dungbug по CS2!",
+    "game": "CS2",
+    "startDate": "Soon...",
+    "endDate": "Soon...",
+    "status": "В процессе игр",
+    "discord": "https://discord.gg/gDZJWk7HmV",
+    "teams": []
   }
 ]
