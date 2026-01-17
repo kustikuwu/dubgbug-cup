@@ -1,0 +1,20 @@
+[
+  {
+    "id": "dubgbug-cup-1",
+    "name": "Winter Dungbug Cup 2026",
+    "description": "Первый официальный турнир Dungbug по Dota 2!",
+    "game": "Dota 2",
+    "startDate": "2026-01-05",
+    "endDate": "2026-01-11",
+    "status": "Завершён",
+    "discord": "https://discord.gg/gDZJWk7HmV",
+    "teams": ["team-beta", "team-sigma", "team-gamma", "team-alpha", "team-ultra"],
+    "results": [
+      { "place": 1, "teamId": "team-beta", "points": 4 },
+      { "place": 2, "teamId": "team-sigma", "points": 2 },
+      { "place": 3, "teamId": "team-gamma", "points": 2 },
+      { "place": 4, "teamId": "team-alpha", "points": 0 },
+      { "place": 5, "teamId": "team-ultra", "points": 0 }
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "id": "dungmine-server",
+  "name": "PTU craft",
+  "description": "Survival сервер исключительно для людей с лицензионной версией игры. Уютное место для совместных приключений и строительства.",
+  "ip": "epyc2.worldhosts.fun:26046",
+  "version": "1.21.11 Fabric",
+  "maxPlayers": 50,
+  "currentPlayers": 3,
+  "image": "/images/minecraft-server.jpg",
+  "requirements": {
+    "licensed": true,
+    "launcher": "Любой ланучер, с подддержкой лицензии",
+    "mainMod": "Plasmo Voice"
+  },
+  "features": [
+    "Поставленные плагины",
+    "Лицензионный сервер",
+    "Plasmo Voice для общения",
+    "Белый список (напиши никнейм в комментарий)",
+    "Совместные проекты",
+    "Уютная атмосфера"
+  ],
+  "howToJoin": "Напиши свой никнейм в комментарии, и тебя добавят в белый список!",
+  "contactTelegram": "https://t.me/HoziyaninOptimus",
+  "modpackInfo": "К посту в закреплённом сообщении прикреплен файл со сборкой модов. Просто скачайте его через лаунчер Modrinth и откройте - сборка автоматически установится.",
+  "events": [
+    {
+      "id": "event-1",
+      "title": "Ивент с эпштейном",
+      "description": "Расследование среди сервера, которое привело нас на сгоревшую деревню, в которой была замечена рука эпштейна",
+      "date": "2026-01-16",
+      "participants": ["member-1", "member-2", "member-3"],
+      "image": "/images/events/epstein-event.jpg"
+    }
+  ]
+}

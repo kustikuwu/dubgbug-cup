@@ -1,0 +1,18 @@
+[
+  {
+    "id": "player-1",
+    "name": "Alex",
+    "role": "player",
+    "nickname": "Shadow",
+    "teams": ["team-alpha"],
+    "tournaments": ["dubgbug-cup-1"]
+  },
+  {
+    "id": "organizer-1",
+    "name": "Max",
+    "role": "organizer",
+    "nickname": null,
+    "tournaments": ["dubgbug-cup-1"]
+  }
+]
+

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "team-alpha",
+    "name": "Мочевые бобры",
+    "tag": "PIS",
+    "logo": "/logos/alpha.png",
+    "players": ["nyavilov", "knqz21", "sshuravl73", "kravatka01", "everyonew"]
+  },
+  {
+    "id": "team-beta",
+    "name": "Мутанты",
+    "tag": "MUT",
+    "logo": "/logos/beta.png",
+    "players": ["Senshi071", "axman242", "sashaslon1k", "dakidakq", "Chogori"]
+  },
+  {
+    "id": "team-sigma",
+    "name": "uglycult team",
+    "tag": "UGL",
+    "logo": "/logos/sigma.png",
+    "players": ["robotymer", "tu4ik", "zxllxldiuezxuirifoxf", "hart1x", "asthmacvt"]
+  },
+  {
+    "id": "team-ultra",
+    "name": "пицца пять сынов",
+    "tag": "PIZ",
+    "logo": "/logos/ultra.png",
+    "players": ["keglechka", "lomikonhi", "cga_2", "provoda1001", "_klod_mane"]
+  },
+  {
+    "id": "team-gamma",
+    "name": "Kishki team",
+    "tag": "KSH",
+    "logo": "/logos/gamma.png",
+    "players": []
+  }
+]
