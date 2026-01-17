@@ -44,6 +44,7 @@ export interface Squad {
   joinDate?: string;
   bio?: string;
   description?: string;
+  achievements?: string[];
   favoriteGames?: string[];
   socialLinks?: {
     twitch?: string;
