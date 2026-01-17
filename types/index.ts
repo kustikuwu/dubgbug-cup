@@ -39,6 +39,7 @@ export interface Tournament {
 export interface Squad {
   id: string;
   nickname: string;
+  name?: string;
   role: string;
   avatar?: string;
   joinDate?: string;
@@ -51,6 +52,7 @@ export interface Squad {
     twitter?: string;
     youtube?: string;
     discord?: string;
+    telegram?: string;
   };
   stats?: {
     playtime?: string;

@@ -26,7 +26,7 @@ export default function SquadCard({ member }: Props) {
       {/* Ник + имя */}
       <div className="text-center mt-4">
         <h2 className="text-2xl font-bold">{member.nickname}</h2>
-        <p className="text-zinc-400">{member.name}</p>
+        {member.name && <p className="text-zinc-400">{member.name}</p>}
       </div>
 
       {/* Роль */}
@@ -39,12 +39,14 @@ export default function SquadCard({ member }: Props) {
       )}
 
       {/* Описание */}
-      <p className="text-center text-zinc-300 mt-5 leading-relaxed">
-        {member.description}
-      </p>
+      {member.description && (
+        <p className="text-center text-zinc-300 mt-5 leading-relaxed">
+          {member.description}
+        </p>
+      )}
 
       {/* Интеграции */}
-      <SquadIntegrations integrations={member.integrations} />
+      {member.integrations && <SquadIntegrations integrations={member.integrations} />}
     </section>
   );
 }
