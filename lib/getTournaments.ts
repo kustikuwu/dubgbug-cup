@@ -5,10 +5,10 @@ export function getTournaments(): Tournament[] {
   return tournaments;
 }
 
-export function getTournament(slug: string): Tournament | null {
-  return tournaments.find((t) => t.slug === slug) || null;
+export function getTournament(id: string): Tournament | null {
+  return tournaments.find((t) => t.id === id) || null;
 }
 
 export function getTournamentIds(): string[] {
-  return tournaments.map((t) => t.slug);
+  return tournaments.map((t) => t.id);
 }
