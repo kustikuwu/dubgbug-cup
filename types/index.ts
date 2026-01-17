@@ -98,5 +98,3 @@ export interface SquadInfo {
   image?: string;
   tagline?: string;
 }
-  image?: string;
-}
