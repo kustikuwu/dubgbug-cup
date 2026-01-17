@@ -41,7 +41,6 @@ export default function ParticipantPage({ params }: ParticipantPageProps) {
           </div>
           <h1 className="text-3xl font-bold mt-4">{member.nickname}</h1>
           <p className="text-purple-300 text-lg">{member.role}</p>
-          {member.country && <p className="text-gray-400 mt-2">{member.country}</p>}
 
           {/* Social Links */}
           {member.socialLinks && (
