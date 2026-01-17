@@ -96,4 +96,7 @@ export interface SquadInfo {
   mission: string;
   memberCount: number;
   image?: string;
+  tagline?: string;
+}
+  image?: string;
 }
